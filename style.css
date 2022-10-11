@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 6575px;
+    background: #FFFFFF;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 90%;
+    }
+}
+
+header img {
+    width: 112px;
+    height: 66px;
+    margin-left: 121px;
+    margin-top: 21px;
+    background: url(logo_mobile_black.png);
+}
+
+.course img {
+    width: 22px;
+    height: 21px;
+    left: 121px;
+    top: 184px;
+    background: url(globe);
+}
+
+.course p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #000000;
+}
+
+.hour img {
+    width: 22px;
+    height: 22px;
+    left: 306px;
+    top: 183px;
+    background: url(img_135744);
+}
+
+.hour p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #000000;
+}
+
+.date img {
+    width: 20px;
+    height: 22px;
+    left: 467px;
+    top: 183px;
+    background: url(calendar_2);
+}
+
+.date p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #000000;
+}
+
+.first {
+    width: 628px;
+    height: 190px;
+    left: 122px;
+    top: 248px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+    background: #000000;
+}
+
+.za {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #000000;
+}
+
+.boy {
+
+    width: 304px;
+    height: 356px;
+    left: 890px;
+    top: 223px;
+    background: url(noroot.png);
+}
+
+.boy .circle {
+
+    width: 274px;
+    height: 41px;
+    left: 921px;
+    top: 558px;
+}
+
+.rectangle {
+
+    width: 483.63px;
+    height: 200px;
+    left: 409.39px;
+    top: 666.62px;
+    background: #1E4681;
+    border-radius: 5px;
+}
+
+.rectangle p {
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.rectangle span {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.second {
+    width: 365px;
+    height: 93px;
+    left: 121px;
+    top: 1040px;
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.film {
+    width: 662px;
+    height: 374px;
+    left: 121px;
+    top: 1151px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.films {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.boy2 img {
+    width: 314px;
+    height: 315px;
+    left: 973px;
+    top: 1175px;
+    background: url(_1.png);
+}
+
+.circle2 img {
+    width: 366px;
+    height: 59px;
+    left: 947px;
+    top: 1460px;
+    background: #EFEFEF;
+}
+
+.camera img {
+    width: 232px;
+    height: 203px;
+    left: 121px;
+    top: 1619px;
+    background: url(photo.png);
+}
+
+.about {
+    
+}
+
+.busy {
+    width: 150px;
+    height: 39px;
+    left: 485px;
+    top: 1689px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+
+}
+
+.movie1 {
+    width: 150px;
+    height: 39px;
+    left: 485px;
+    top: 1729px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.week {
+    width: 150px;
+    height: 39px;
+    left: 973px;
+    top: 1689px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.hour2 {
+    width: 150px;
+    height: 39px;
+    left: 730px;
+    top: 1689px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.movie2 {
+    width: 150px;
+    height: 39px;
+    left: 730px;
+    top: 1729px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.movie3 {
+    width: 245px;
+    height: 39px;
+    left: 851px;
+    top: 2222px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
