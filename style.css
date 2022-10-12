@@ -51,7 +51,7 @@
 .all2 .date img {
     width: 20px;
     height: 22px;
-    margin-left: ;
+    margin-right: 25px;
     margin-top: 183px;
 }
 
@@ -242,20 +242,16 @@
     display: flex;
     flex-direction: row;
 }
-.hello.part1 {
+.hello .part1 {
     color: #1E4681;
-    margin: 2182px 1168px 4354px 122px;
 }
-.hello.story1 {
+.hello .story1 {
     color: #000000;
-    margin: 2222px 1095px 4314px 122px;
 }
 .hello .part2 {
-    margin: 2182px 759px 4354px 467px;
     color: #1E4681;
 }
-.hello.story2 {
-    margin: 2222px 702px 4244px 467px;
+.hello .story2 {
     color: #000000;
 }
 .hello .who {
