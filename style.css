@@ -242,7 +242,6 @@
     line-height: 23px;
     color: #000000;
 }
-<<<<<<< HEAD
 .hello {
     display: flex;
     flex-direction: row;
@@ -269,12 +268,9 @@
 }
 .hello .part3 {
     color: #1E4681;
-    margin: ;
-=======
-
+}
 @media (min-width: 1280px) {
     .container {
         width: 90%;
     }
->>>>>>> 75df52ca77ed3de874d7df256a82d04321949c61
 }
