@@ -257,3 +257,31 @@
     line-height: 23px;
     color: #000000;
 }
+.hello {
+    display: flex;
+    flex-direction: row;
+}
+.hello.part1 {
+    color: #1E4681;
+    margin: 2182px 1168px 4354px 122px;
+}
+.hello.story1 {
+    color: #000000;
+    margin: 2222px 1095px 4314px 122px;
+}
+.hello .part2 {
+    margin: 2182px 759px 4354px 467px;
+    color: #1E4681;
+}
+.hello.story2 {
+    margin: 2222px 702px 4244px 467px;
+    color: #000000;
+}
+.hello .who {
+    display: flex;
+    flex-direction: column;
+}
+.hello .part3 {
+    color: #1E4681;
+    margin: ;
+}
