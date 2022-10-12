@@ -2,113 +2,99 @@
     margin: 0;
     padding: 0;
 }
-
 .container {
-    position: relative;
     width: 1440px;
     height: 6575px;
     background: #FFFFFF;
 }
-
-@media (min-width: 1280px) {
-    .container {
-        width: 90%;
-        background-color: black;
-    }
+.all2{
+    display: flex;
+    flex-direction: row;
 }
-
-.container img {
+.head img {
     width: 150px;
     height: 66px;
     margin-left: 121px;
     margin-top: 21px;
 }
-
-.container .course img {
-    width: 11px;
-    background-size: cover;
+.all2 .course img {
+    width: 22px;
+    height: 21px;
+    margin-left: 121px;
+    margin-top: 184px;
+    
 }
-
-.course p {
-    font-family: Roboto, sans-serif;
+.all2 .course p {
+    width: 130px;
+   height: 32px;
+   margin-left: 151px;
+   margin-top: -25px;
+   font-family: Roboto, sans-serif;
     font-size: 20px;
-    font-weight: 400;
     line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    background: #000000;
+   
 }
-
-.hour img {
+.all2 .hour img {
     width: 22px;
     height: 22px;
-    left: 306px;
-    top: 183px;
-    background: url(img_135744);
+    margin-left: 25px;
+    margin-top: 183px;
 }
-
-.hour p {
+.all2 .hour p {
     font-family: Roboto, sans-serif;
     font-size: 20px;
-    font-weight: 400;
     line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    background: #000000;
+    width: 130px;
+    height: 32px;
+    margin-left: 25px;
+    margin-top: -25px;
 }
-
-.date img {
+.all2 .date img {
     width: 20px;
     height: 22px;
-    left: 467px;
-    top: 183px;
-    background: url(calendar_2);
+    margin-left: 467px;
+    margin-top: 183px;
 }
 
-.date p {
+.all2 .date p {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    background: #000000;
+    width: 130px;
+    height: 32px;
+    margin-left: 500px;
+    margin-top: -25px;
 }
-
-.first {
+.medium{
+    display: flex;
+    flex-direction: row;
+}
+.nearboy .first {
     width: 628px;
     height: 190px;
-    left: 122px;
-    top: 248px;
+    margin-left: 122px;
+    margin-top: 43px;
     font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
     font-size: 80px;
     line-height: 101.38%;
-    background: #000000;
 }
 
-.za {
+.nearboy .za {
     font-family: Roboto;
     font-size: 20px;
-    font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    background: #000000;
+    margin-left: 122px;
+    margin-top: 51px;
 }
-
-.boy {
-
+.nearboy .boy img{
     width: 304px;
     height: 356px;
-    left: 890px;
-    top: 223px;
-    background: url(noroot.png);
+    margin-left: 890px;
+    margin-top: 223px;
+    margin-right: 246px;
+
 }
-
-
-
 .rectangle {
 
     width: 483.63px;
@@ -173,7 +159,7 @@
     height: 315px;
     left: 973px;
     top: 1175px;
-    background: url(_1.png);
+    
 }
 
 .camera img {
@@ -181,7 +167,6 @@
     height: 203px;
     left: 121px;
     top: 1619px;
-    background: url(photo.png);
 }
 
 .about {}
@@ -256,4 +241,10 @@
     font-size: 18px;
     line-height: 23px;
     color: #000000;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 90%;
+    }
 }
