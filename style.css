@@ -17,12 +17,11 @@
     }
 }
 
-header img {
-    width: 112px;
+.container img {
+    width: 150px;
     height: 66px;
     margin-left: 121px;
     margin-top: 21px;
-    background: url(logo_mobile_black.png);
 }
 
 .container .course img {
@@ -108,13 +107,7 @@ header img {
     background: url(noroot.png);
 }
 
-.boy .circle {
 
-    width: 274px;
-    height: 41px;
-    left: 921px;
-    top: 558px;
-}
 
 .rectangle {
 
@@ -181,14 +174,6 @@ header img {
     left: 973px;
     top: 1175px;
     background: url(_1.png);
-}
-
-.circle2 img {
-    width: 366px;
-    height: 59px;
-    left: 947px;
-    top: 1460px;
-    background: #EFEFEF;
 }
 
 .camera img {
