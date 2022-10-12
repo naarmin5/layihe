@@ -37,7 +37,6 @@
 .all2 .hour img {
     width: 22px;
     height: 22px;
-    margin-left: 25px;
     margin-top: 183px;
 }
 .all2 .hour p {
@@ -52,7 +51,7 @@
 .all2 .date img {
     width: 20px;
     height: 22px;
-    margin-left: 467px;
+    margin-left: ;
     margin-top: 183px;
 }
 
@@ -63,7 +62,7 @@
     line-height: 23px;
     width: 130px;
     height: 32px;
-    margin-left: 500px;
+    margin-left: 25px;
     margin-top: -25px;
 }
 .medium{
