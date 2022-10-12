@@ -1,44 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Roboto',sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 1440px;
-    height: 6575px;
     background: #FFFFFF;
 }
-.all2{
+
+.container1 {
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+.all2 {
     display: flex;
     flex-direction: row;
 }
+
 .head img {
     width: 150px;
     height: 66px;
-    margin-left: 121px;
     margin-top: 21px;
 }
+
 .all2 .course img {
     width: 22px;
     height: 21px;
-    margin-left: 121px;
-    margin-top: 184px;
-    
+    margin-top: 100px;
 }
+
 .all2 .course p {
     width: 130px;
-   height: 32px;
-   margin-left: 151px;
-   margin-top: -25px;
-   font-family: Roboto, sans-serif;
+    height: 32px;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     line-height: 23px;
-   
+    margin-left: 25px;
+    margin-top: -25px;
 }
+
 .all2 .hour img {
     width: 22px;
     height: 22px;
-    margin-top: 183px;
+    margin-top: 100px;
 }
+
 .all2 .hour p {
     font-family: Roboto, sans-serif;
     font-size: 20px;
@@ -48,11 +59,12 @@
     margin-left: 25px;
     margin-top: -25px;
 }
+
 .all2 .date img {
     width: 20px;
     height: 22px;
     margin-right: 25px;
-    margin-top: 183px;
+    margin-top: 100px;
 }
 
 .all2 .date p {
@@ -65,14 +77,15 @@
     margin-left: 25px;
     margin-top: -25px;
 }
-.medium{
+
+.medium {
     display: flex;
     flex-direction: row;
 }
-.nearboy .first {
+
+.nearboy h1 {
     width: 628px;
     height: 190px;
-    margin-left: 122px;
     margin-top: 43px;
     font-family: 'Roboto Slab';
     font-size: 80px;
@@ -86,7 +99,8 @@
     margin-left: 122px;
     margin-top: 51px;
 }
-.nearboy .boy img{
+
+.nearboy .boy img {
     width: 304px;
     height: 356px;
     margin-left: 890px;
@@ -94,32 +108,33 @@
     margin-right: 246px;
 
 }
-.rectangle {
 
-    width: 483.63px;
+.rectangle {
+    width: 484px;
     height: 200px;
-    left: 409.39px;
-    top: 666.62px;
+    margin-left: 409px;
+    margin-top: 87px;
     background: #1E4681;
     border-radius: 5px;
+    color: white;
 }
 
-.rectangle p {
+.rectangle .about1 {
     font-family: Roboto Slab;
     font-size: 25px;
-    font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0em;
     text-align: left;
+    padding-left: 26px;
+    padding-right: 27px;
+    padding-top: 19px;
+    padding-bottom: 67px;
 }
 
-.rectangle span {
-    font-family: Roboto;
+.rectangle .author {
     font-size: 20px;
-    font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0em;
     text-align: right;
+    padding-right: 184px;
 }
 
 .second {
@@ -158,7 +173,7 @@
     height: 315px;
     left: 973px;
     top: 1175px;
-    
+
 }
 
 .camera img {
@@ -167,6 +182,7 @@
     left: 121px;
     top: 1619px;
 }
+
 .busy {
     width: 150px;
     height: 39px;
@@ -238,29 +254,37 @@
     line-height: 23px;
     color: #000000;
 }
+
 .hello {
     display: flex;
     flex-direction: row;
 }
+
 .hello .part1 {
     color: #1E4681;
 }
+
 .hello .story1 {
     color: #000000;
 }
+
 .hello .part2 {
     color: #1E4681;
 }
+
 .hello .story2 {
     color: #000000;
 }
+
 .hello .who {
     display: flex;
     flex-direction: column;
 }
+
 .hello .part3 {
     color: #1E4681;
 }
+
 @media (min-width: 1280px) {
     .container {
         width: 90%;
