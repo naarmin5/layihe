@@ -246,16 +246,16 @@
     display: flex;
     flex-direction: row;
 }
-.hello.part1 {
+.hello .part1 {
     color: #1E4681;
 }
-.hello.story1 {
+.hello .story1 {
     color: #000000;
 }
 .hello .part2 {
     color: #1E4681;
 }
-.hello.story2 {
+.hello .story2 {
     color: #000000;
 }
 .hello .who {
