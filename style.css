@@ -13,6 +13,7 @@
 @media (min-width: 1280px) {
     .container {
         width: 90%;
+        background-color: black;
     }
 }
 
@@ -24,16 +25,14 @@ header img {
     background: url(logo_mobile_black.png);
 }
 
-.course img {
-    width: 22px;
-    height: 21px;
-    left: 121px;
-    top: 184px;
-    background: url(globe);
+.course-img {
+    max-width: 11px;
+    background-image: url(globe);
+    background-size: cover;
 }
 
 .course p {
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -51,7 +50,7 @@ header img {
 }
 
 .hour p {
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
