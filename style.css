@@ -25,14 +25,13 @@ header img {
     background: url(logo_mobile_black.png);
 }
 
-.course-img {
-    max-width: 11px;
-    background-image: url(globe);
+.container .course img {
+    width: 11px;
     background-size: cover;
 }
 
 .course p {
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -50,7 +49,7 @@ header img {
 }
 
 .hour p {
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -200,9 +199,7 @@ header img {
     background: url(photo.png);
 }
 
-.about {
-    
-}
+.about {}
 
 .busy {
     width: 150px;
