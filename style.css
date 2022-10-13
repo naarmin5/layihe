@@ -151,19 +151,25 @@ body{
     height: 315px;
     margin-left: 190px;
 }
-
+.camera{
+    display: flex;   
+    flex-direction: row;
+}
 .camera img {
     width: 232px;
     height: 203px;
     margin-top: 94px;
 }
 
-.camera .nearcamera{
+.nearcamera {
     margin-top: 164px;
+    padding-left: 132px;
      width: 150px;
     height: 39px;
     color: #000000;
-    display: flex;
+    display: flex;   
+     flex-direction: row;
+
 }
 .busy {
     width: 150px;
@@ -175,24 +181,25 @@ body{
     font-size: 18px;
     line-height: 23px;
 }
+.hm{
+    padding-left: 95px;
+}
+.wm{
+    padding-left: 93px;
+}
 .week {
     font-size: 25px;
     line-height: 32px;
-  
 }
 .hour2 {
     font-size: 25px;
     line-height: 32px;
-    
 }
 .movie2 {
     font-size: 18px;
     line-height: 23px;
-
 }
 .movie3 {
-    width: 245px;
-    height: 39px;
     font-size: 18px;
     line-height: 23px;
 }
