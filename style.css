@@ -28,54 +28,44 @@ body{
     margin-top: 21px;
 }
 
-.all2 .course img {
+.course img {
     width: 22px;
     height: 21px;
     margin-top: 100px;
 }
 
-.all2 .course p {
+.course p {
     width: 130px;
-    height: 32px;
-    font-family: Roboto, sans-serif;
     font-size: 20px;
     line-height: 23px;
-    margin-left: 25px;
-    margin-top: -25px;
+    margin: -25px 0px 0px 25px;
 }
 
-.all2 .hour img {
+.hour img {
     width: 22px;
     height: 22px;
-    margin-top: 100px;
+    margin-top: 100px; 
+     margin-left: 25px;
 }
 
-.all2 .hour p {
-    font-family: Roboto, sans-serif;
+ .hour p {
     font-size: 20px;
     line-height: 23px;
     width: 130px;
-    height: 32px;
-    margin-left: 25px;
-    margin-top: -25px;
+    margin: -25px 0px 0px 50px;
 }
 
-.all2 .date img {
+.date img {
     width: 20px;
-    height: 22px;
     margin-right: 25px;
     margin-top: 100px;
 }
 
-.all2 .date p {
-    font-family: Roboto;
+.date p {
     font-size: 20px;
-    font-weight: 400;
     line-height: 23px;
     width: 130px;
-    height: 32px;
-    margin-left: 25px;
-    margin-top: -25px;
+    margin: -25px 0px 0px 29px;
 }
 
 .medium {
@@ -92,7 +82,6 @@ body{
 }
 
 .nearboy .za {
-    font-family: Roboto;
     font-size: 20px;
     line-height: 30px;
     margin-top: 51px;
@@ -105,7 +94,7 @@ body{
 }
 
 .rectangle {
-    width: 484px;
+    width: 440px;
     height: 200px;
     margin: 87px 0px 0px  409px;
     background: #1E4681;
@@ -114,7 +103,7 @@ body{
 }
 
 .rectangle .about1 {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-size: 25px;
     line-height: 32px;
     text-align: left;
@@ -124,7 +113,7 @@ body{
 
 .rectangle .author {
     font-size: 20px;
-    line-height: 26px;
+    line-height: 2px;
     text-align: right;
     padding-right: 25px;
 }
@@ -203,107 +192,65 @@ body{
     font-size: 18px;
     line-height: 23px;
 }
+
+
+
+
 .hello {
     display: flex;
     flex-direction: row;
-    width: 667px;
-    height: 93px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 101.38%;
+    line-height: 130%;
 }
-
-.hello .part1 {
+.hello h3{
     color: #1E4681;
-    margin: 89px 195px 1px 122px;
-    width: 150px;
-    height: 39px;
-    font-weight: 700;
     font-size: 25px;
-    line-height: 130%;
-}
-
-.hello .story1 {
-    color: #000000;
-    margin: 1px 122px 249px 122px;
-    width: 223px;
     height: 39px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
 }
-
-.hello .part2 {
-    color: #1E4681;
-    margin: 89px 170px 1px 195px;
-    width: 214px;
-    height: 39px;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
-}
-
-.hello .story2 {
+.hello p{
     color: #000000;
-    margin: 1px 113px 179px 122px;
-    width: 271px;
-    height: 109px;
     font-size: 18px;
-    line-height: 130%;
 }
-
-.hello .who {
+.part1 {
+    margin: 89px 0px 1px 0px;
+}
+.part2 {
+    margin:  89px 0px 0px 125px;
+}
+.part3 {
+    margin: 89px 0px 1px 63px;
+}
+.story2 {
+  margin: 1px 113px 179px 122px;
+}
+.story3{
+    margin: 1px 0px 0px 63px;   
+}
+ .who {
     display: flex;
     flex-direction: column;
 }
-
-.hello .part3 {
-    color: #1E4681;
-    margin: 89px 439px 1px 113px;
-    width: 150px;
-    height: 39px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
+ 
+.hi{
+    margin: 178px 0px 89px 0px;
+    font-family: 'Roboto Slab';
+    font-size: 55px;
 }
 
+.bye{
+    color: #000000;
+    height: 93px;
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+}
+.finish{
+    margin-top: 20px;
+    color: #000;
+    height: 374px;
+    font-size: 24px;
+    line-height: 150%;
+}
 @media (min-width: 1280px) {
     .container {
         width: 90%;
     }
-}
-.hi{
-    margin: 178px 652px 89px 121px;
-}
-.hello .story3{
-    margin: 1px 344px 10px 113px;
-    color: #000;
-    width: 245px;
-    height: 39px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-}
-.bye{
-    color: #000000;
-    margin: 179px 652px 21px 121px;
-    width: 667px;
-    height: 93px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 101.38%;
-}
-.finish{
-    margin: 21px 640px 248px 138px;
-    color: #000;
-    width: 662px;
-    height: 374px;
-    font-size: 24px;
-    line-height: 150%;
 }
