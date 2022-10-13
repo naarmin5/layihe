@@ -258,18 +258,22 @@ body{
 
 .hello .part1 {
     color: #1E4681;
+    margin: 89px 195px 1px 122px;
 }
 
 .hello .story1 {
     color: #000000;
+    margin: 1px 122px 249px 122px;
 }
 
 .hello .part2 {
     color: #1E4681;
+    margin: 89px 170px 1px 195px;
 }
 
 .hello .story2 {
     color: #000000;
+    margin: 1px 113px 179px 122px;
 }
 
 .hello .who {
@@ -279,10 +283,26 @@ body{
 
 .hello .part3 {
     color: #1E4681;
+    margin: 89px 439px 1px 113px;
 }
 
 @media (min-width: 1280px) {
     .container {
         width: 90%;
     }
+}
+.hi{
+    margin: 178px 652px 89px 121px;
+}
+.hello .story3{
+    margin: 1px 344px 10px 113px;
+    color: #000;
+}
+.bye{
+    color: #000000;
+    margin: 179px 652px 21px 121px;
+}
+.finish{
+    margin: 21px 640px 248px 138px;
+    color: #000;
 }
