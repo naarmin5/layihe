@@ -3,77 +3,62 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
 * {
     margin: 0;
     padding: 0;
 }
-
 .container {
     width: 1440px;
     background: #FFFFFF;
 }
-
 .container1 {
     margin-left: 125px;
     margin-right: 100px;
 }
-
 .head img {
     width: 150px;
     height: 66px;
     margin-top: 21px;
 }
-
 .all2 {
     display: flex;
     flex-direction: row;
 }
-
 .all2 p {
     font-size: 20px;
     line-height: 23px;
 }
-
 .all2 img {
     width: 22px;
     height: 22px;
 }
-
 .course img {
     margin-top: 100px;
 }
-
 .course p {
     width: 130px;
     margin: -25px 0px 0px 25px;
 }
-
 .hour img {
     margin-top: 100px;
     margin-left: 25px;
 }
-
 .hour p {
     width: 130px;
     margin: -25px 0px 0px 50px;
 }
-
 .date img {
     margin-right: 25px;
     margin-top: 100px;
 }
-
 .date p {
     width: 130px;
     margin: -25px 0px 0px 29px;
 }
-
 .medium {
     display: flex;
     flex-direction: row;
 }
-
 .nearboy h1 {
     width: 628px;
     height: 190px;
@@ -81,19 +66,16 @@ body {
     font-family: 'Roboto Slab';
     font-size: 80px;
 }
-
 .za {
     font-size: 20px;
     line-height: 30px;
     margin-top: 51px;
 }
-
 .nearboy .boy img {
     width: 304px;
     height: 356px;
     margin: 223px 246px 0px 890px;
 }
-
 .rectangle {
     width: 440px;
     height: 200px;
@@ -102,7 +84,6 @@ body {
     border-radius: 5px;
     color: white;
 }
-
 .rectangle .about1 {
     font-family: 'Roboto Slab';
     font-size: 25px;
@@ -111,14 +92,12 @@ body {
     padding: 19px 45px 26px 27px;
 
 }
-
 .rectangle .author {
     font-size: 20px;
     line-height: 2px;
     text-align: right;
     padding-right: 25px;
 }
-
 .second {
     height: 93px;
     font-family: 'Roboto Slab';
@@ -127,7 +106,6 @@ body {
     color: #000000;
     margin-top: 174px;
 }
-
 .film {
     display: flex;
     flex-direction: row;
@@ -135,24 +113,20 @@ body {
     line-height: 36px;
     color: #000000;
 }
-
 .film .boy2 {
     width: 314px;
     height: 315px;
     margin-left: 190px;
 }
-
 .camera {
     display: flex;
     flex-direction: row;
 }
-
 .camera img {
     width: 232px;
     height: 203px;
     margin-top: 94px;
 }
-
 .nearcamera {
     margin-top: 164px;
     padding-left: 132px;
@@ -160,64 +134,48 @@ body {
     display: flex;
     flex-direction: row;
 }
-
 .nearcamera h3 {
     font-size: 25px;
     line-height: 32px;
 }
-
 .nearcamera p {
     font-size: 18px;
     line-height: 23px;
     width: 150px;
     height: 39px;
 }
-
 .hm {
     padding-left: 95px;
 }
-
 .wm {
     padding-left: 93px;
 }
-
-
-
-
-
 .hello {
     display: flex;
     flex-direction: row;
     line-height: 130%;
 }
-
 .hello h3 {
     color: #1E4681;
     font-size: 25px;
     height: 39px;
 }
-
 .hello p {
     color: #000000;
     font-size: 18px;
 }
-
 .part1 {
     margin: 89px 0px 1px 0px;
 }
-
 .part2 {
     margin: 89px 0px 0px 125px;
 }
-
 .part3 {
     margin: 89px 0px 1px 63px;
 }
-
 .story2 {
     margin: 1px 113px 179px 122px;
 }
-
 .story3 {
     margin: 1px 0px 0px 63px;
 }
@@ -233,20 +191,172 @@ body {
     font-size: 55px;
 }
 
-.bye {
-    color: #000000;
-    height: 93px;
-    font-family: 'Roboto Slab';
-    font-size: 55px;
-}
-
 .finish {
     margin-top: 20px;
     color: #000;
     height: 374px;
     font-size: 24px;
     line-height: 150%;
+    font-family: 'Roboto Slab';
 }
+.bye {
+    height: 93px;
+    font-size: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+.block {
+    height: 160px;
+    width: 399px;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 41px;
+    margin-right: 35px;
+
+}
+h2 {
+    margin: 2px 0 2px 20px;
+}
+h3 {
+    font-size: 25px;
+}
+.table1 p, .table2 p {
+    font-size: 18px;
+}
+.blocks p {
+    font-size: 25px;
+    margin: 0 15px 23px 19px;
+}
+.table1 span {
+    margin-right: 50px;
+    display: inline-block;
+}
+.block img {
+    width: 25.89227774172615vw;
+    height: 22.284122562674096vh;
+    min-width: 185.92px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    ul {
+        margin-left: 79.92px;
+        font-size: 14px;
+        margin-bottom: 143px;
+        width: 38.038067349926795vw;
+    }
+    .head3 {
+        margin-bottom: 12.16px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .table1 p, .table2 p {
+        font-size: 11px;
+    }
+
+    .tabimg .photo1 {
+        width:16.98389458272328vw;
+        height: 17.894977168949772vh; 
+        margin-left: 70.08px;
+        margin-top: 70px;
+    }
+.table1 {
+    margin-left: 76.45px;
+    width: 40.603221083455345vw;
+    height: 12.1765601217656vh;
+}
+div.tabimg {
+    margin-bottom: 103.09px;
+    margin-top: 50px;
+}
+
+.table2 {
+    margin-left: 71px;
+    width: 73.21522693997072vw;
+}
+div.formattab {
+    margin-bottom: 138px;
+}
+.block {
+    width: 23.295362903225808vw;
+    height: 26.42559109874826vh;
+}
+.block img {
+    width: 23.295362903225808vw;
+    height: 11.89602053915276vh;
+}
+.block h2 {
+    font-size: 17px;
+}
+.block p {
+    font-size: 14px;
+}
+.blocks {
+    margin-left: 48px;
+}
+
+}
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .blocks {
+        margin-left: 95px;
+    }
+
+   
+  
+    .block {
+        width: 20.007792207792207vw;
+        height: 21.25730180806676vh;
+        margin-bottom: 24px;
+    }
+    .block img {
+        width: 20.007792207792207vw;
+        height: 10.369958275382476vh;
+    }
+    .block h2 {
+        font-size: 14px;
+    }
+    .block p {
+        font-size: 12px;
+    }
+}
+
+.programm{
+    margin-top: 250px;
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1280px) {
     .container {
