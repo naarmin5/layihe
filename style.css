@@ -7,14 +7,13 @@ body {
     margin: 0;
     padding: 0;
 }
-.container {
-    width: 1440px;
-    background: #FFFFFF;
-}
 .container1 {
     margin-left: 125px;
     margin-right: 100px;
+    width: 1440px;
+    background: #FFFFFF;
 }
+
 .head img {
     width: 150px;
     height: 66px;
@@ -90,7 +89,6 @@ body {
     line-height: 32px;
     text-align: left;
     padding: 19px 45px 26px 27px;
-
 }
 .rectangle .author {
     font-size: 20px;
@@ -322,8 +320,6 @@ div.formattab {
         margin-left: 95px;
     }
 
-   
-  
     .block {
         width: 20.007792207792207vw;
         height: 21.25730180806676vh;
@@ -347,19 +343,42 @@ div.formattab {
     font-size: 55px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 1280px) {
     .container {
         width: 90%;
     }
+}
+
+
+
+.container2{
+    background-color: #EFEFEF;
+    width: 1550px;
+    margin-top: 200px;
+}
+.person {
+   width: 791px;
+   background-color: #FFFFFF;
+   border-radius: 30px;
+
+}
+.persontext {
+   font-size: 20px;
+   margin-left: 45px;
+   padding-top: 46px;
+
+}
+.ekaterina{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.ekaterina h3{
+    font-size: 30px;
+}
+.gray h1{
+   text-align: center;
+}
+.ekaterina .fb{
+    margin-left: 20px;
 }
