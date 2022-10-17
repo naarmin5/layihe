@@ -351,11 +351,11 @@ div.formattab {
 
 .container2{
    width: 1550px;
-   height: 780px;
 }
 .gray{
     background-color: #EFEFEF;
     margin-top: 200px;
+     height: 780px;
 }
 .gray h1{ 
     font-family: 'Roboto Slab';
@@ -371,7 +371,8 @@ div.formattab {
    border-radius: 30px;
    margin-left: 126px;
 }
-.persontext {
+
+.persontext p {
    font-size: 20px;
    line-height: 30px;
    margin-left: 45px;
@@ -396,9 +397,35 @@ div.formattab {
     width: 1550px;
     height: 780px;
 }
+.insidecyan{
+    margin-left: 122px;
+    padding-top: 179px;
+}
 .blockcyan h1{
     font-family: 'Roboto Slab';
     font-size: 55px;
-    text-align: center;
 }
-
+.rubl1{
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 54px;
+}
+.rubl2{
+    font-size: 80px;
+    margin-top: 20px;
+}
+.now {
+    display: flex;
+    margin-top: 155px;
+}
+.now1{
+    padding-left: 70px;
+}
+.now h3{
+    font-size: 25px;
+}
+.now p{
+     width: 294px;
+     margin-top: 9px;
+     font-size: 18px;
+}
