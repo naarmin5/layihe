@@ -349,36 +349,56 @@ div.formattab {
     }
 }
 
-
-
 .container2{
+   width: 1550px;
+   height: 780px;
+}
+.gray{
     background-color: #EFEFEF;
-    width: 1550px;
     margin-top: 200px;
+}
+.gray h1{ 
+    font-family: 'Roboto Slab';
+   text-align: center;
+   font-size: 55px;
+   margin-bottom: 50px;
+   padding-top: 90px;
 }
 .person {
    width: 791px;
+   height: 451px;
    background-color: #FFFFFF;
    border-radius: 30px;
-
+   margin-left: 126px;
 }
 .persontext {
    font-size: 20px;
+   line-height: 30px;
    margin-left: 45px;
    padding-top: 46px;
-
+   width: 700px;
 }
 .ekaterina{
     display: flex;
-    flex-direction: row;
     margin-top: 50px;
+}
+.ekaterina .Eka{
+    margin-top: 20px;
 }
 .ekaterina h3{
     font-size: 30px;
 }
-.gray h1{
-   text-align: center;
-}
 .ekaterina .fb{
-    margin-left: 20px;
+    margin: -291px;
 }
+.blockcyan{
+    background: #9DC9C8;
+    width: 1550px;
+    height: 780px;
+}
+.blockcyan h1{
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+    text-align: center;
+}
+
