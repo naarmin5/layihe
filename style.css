@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -13,7 +12,6 @@ body {
     width: 1440px;
     background: #FFFFFF;
 }
-
 .head img {
     width: 150px;
     height: 66px;
@@ -177,18 +175,15 @@ body {
 .story3 {
     margin: 1px 0px 0px 63px;
 }
-
 .who {
     display: flex;
     flex-direction: column;
 }
-
 .hi {
     margin: 178px 0px 89px 0px;
     font-family: 'Roboto Slab';
     font-size: 55px;
 }
-
 .finish {
     margin-top: 20px;
     color: #000;
@@ -206,7 +201,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 50px;
-    
 }
 .block {
     height: 160px;
@@ -215,7 +209,6 @@ body {
     border-radius: 30px;
     margin-bottom: 41px;
     margin-right: 35px;
-
 }
 h2 {
     margin: 2px 0 2px 20px;
@@ -239,7 +232,6 @@ h3 {
     height: 22.284122562674096vh;
     min-width: 185.92px;
 }
-
 @media screen and (min-width: 992px) and (max-width: 1279px) {
     ul {
         margin-left: 79.92px;
@@ -256,7 +248,6 @@ h3 {
     .table1 p, .table2 p {
         font-size: 11px;
     }
-
     .tabimg .photo1 {
         width:16.98389458272328vw;
         height: 17.894977168949772vh; 
@@ -272,7 +263,6 @@ div.tabimg {
     margin-bottom: 103.09px;
     margin-top: 50px;
 }
-
 .table2 {
     margin-left: 71px;
     width: 73.21522693997072vw;
@@ -297,13 +287,11 @@ div.formattab {
 .blocks {
     margin-left: 48px;
 }
-
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
     .blocks {
         margin-left: 95px;
     }
-
     .block {
         width: 20.007792207792207vw;
         height: 21.25730180806676vh;
@@ -320,19 +308,16 @@ div.formattab {
         font-size: 12px;
     }
 }
-
 .programm{
     margin-top: 250px;
     font-family: 'Roboto Slab';
     font-size: 55px;
-
 }
 @media (min-width: 1280px) {
     .container {
         width: 90%;
     }
 }
-
 .container2{
    width: 1550px;
 }
@@ -411,21 +396,52 @@ div.formattab {
      margin-top: 9px;
      font-size: 18px;
 }
-.black {
-    background-color: #000000;
-    height: 390px;
-}
-.insideblack {
-    margin-left: 122px;
+.footer{
+    background-color: #000;
+    padding:0px 60px ;
     display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.footer .first {
+    display: flex;
+   justify-content: space-between;
+}
+.first  .left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ .first .left .two{
+    display: flex;
+}
+ .left .right{
+    display: flex;
+    flex-direction: column;
+}
+.right div{
+    display: flex;
+    align-items: center;
+}
+.footer .right img {
+    width: 30px;
+    height: 30px;
+}
+.contact p {
+    color: #fff;
+}
+.footer .second2{
+    color: #fff;
+}
+.two{
+    padding: 30px 3px 60px 0px;
+}
+.one{
     padding-top: 50px;
-    color: white;
 }
-.sinxron{
-    display: flex;
+.right{
+    margin-top: 60px;
 }
-.sinxro20{
-    margin-top: 300px;
-    margin-left: -586px;
-    margin-bottom: 50px;
+.contact{
+    padding-top: 20px;
 }
