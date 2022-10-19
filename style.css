@@ -113,6 +113,7 @@ body {
     width: 314px;
     height: 315px;
     margin-left: 190px;
+    padding-right: 50px;
 }
 .camera {
     display: flex;
