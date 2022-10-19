@@ -197,87 +197,88 @@ body {
     height: 93px;
     font-size: 55px;
 }
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.body1 {
+    font-family: 'Roboto';
+    margin:0;
+    padding: 0;
+    margin-top: 250px;
+}
+
+
+.programm{
+    margin-left: 121px;
+    margin-top: 0;
+    margin-bottom: 95px;
+    width: 667px;
+    font-size: 55px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
 .blocks {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin: auto;
+    max-width: 1350px;
+    justify-content: start;
 }
 .block {
-    height: 160px;
-    width: 399px;
+    height: 45vh;
+    width: 25vw;
     box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     margin-bottom: 41px;
     margin-right: 35px;
+    
+    min-width: 185px;
 }
 h2 {
     margin: 2px 0 2px 20px;
 }
-h3 {
-    font-size: 25px;
-}
-.table1 p, .table2 p {
-    font-size: 18px;
-}
+
+
 .blocks p {
     font-size: 25px;
     margin: 0 15px 23px 19px;
 }
-.table1 span {
-    margin-right: 50px;
-    display: inline-block;
-}
+
 .block img {
-    width: 25.89227774172615vw;
-    height: 22.284122562674096vh;
-    min-width: 185.92px;
+    width: 25vw;
+    height: 22vh;
+    min-width: 185px;
 }
+
 @media screen and (min-width: 992px) and (max-width: 1279px) {
-    ul {
-        margin-left: 79.92px;
-        font-size: 14px;
-        margin-bottom: 143px;
-        width: 38.038067349926795vw;
+
+    .body1 {
+        font-family: 'Roboto';
+        margin:0;
+        padding: 0;
+        margin-top: 250px;
     }
-    .head3 {
-        margin-bottom: 12.16px;
-    }
-    h3 {
-        font-size: 15px;
-    }
-    .table1 p, .table2 p {
-        font-size: 11px;
-    }
-    .tabimg .photo1 {
-        width:16.98389458272328vw;
-        height: 17.894977168949772vh; 
-        margin-left: 70.08px;
-        margin-top: 70px;
-    }
-.table1 {
-    margin-left: 76.45px;
-    width: 40.603221083455345vw;
-    height: 12.1765601217656vh;
+
+
+.programm {
+    margin-left: 70px;
+    font-size: 32px;
+    margin-bottom: 50px;
 }
-div.tabimg {
-    margin-bottom: 103.09px;
-    margin-top: 50px;
+h1.format {
+    margin-bottom: 51.55px;
 }
-.table2 {
-    margin-left: 71px;
-    width: 73.21522693997072vw;
-}
-div.formattab {
-    margin-bottom: 138px;
-}
-.block {
-    width: 23.295362903225808vw;
-    height: 26.42559109874826vh;
-}
+
+
+
 .block img {
-    width: 23.295362903225808vw;
-    height: 11.89602053915276vh;
+    width: 25vw;
+    height: 22vh;
+    min-width: 185px;
 }
 .block h2 {
     font-size: 17px;
@@ -286,21 +287,50 @@ div.formattab {
     font-size: 14px;
 }
 .blocks {
-    margin-left: 48px;
+    margin-left: 58px;
 }
+
+
+
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
+
+
+    h3 {
+        font-size: 11px;
+    }
+
+    span {
+        margin: 0;
+    }
+    div.tabimg {
+        margin-top: 59px;
+        margin-bottom: 0px;
+    }
+    .programm {
+        font-size: 26px;
+        margin-left: 36px;
+    }
+
+
+
     .blocks {
         margin-left: 95px;
     }
+    .programm {
+        margin-bottom: 35px;
+        margin-left: 70px;
+    }
+
+   
     .block {
-        width: 20.007792207792207vw;
-        height: 21.25730180806676vh;
+        width: 20vw;
+        height: 21vh;
         margin-bottom: 24px;
     }
     .block img {
-        width: 20.007792207792207vw;
-        height: 10.369958275382476vh;
+        width: 20vw;
+        height: 10vh;
     }
     .block h2 {
         font-size: 14px;
@@ -309,11 +339,12 @@ div.formattab {
         font-size: 12px;
     }
 }
-.programm{
-    margin-top: 250px;
-    font-family: 'Roboto Slab';
-    font-size: 55px;
-}
+
+
+
+
+
+
 @media (min-width: 1280px) {
     .container {
         width: 90%;
@@ -434,10 +465,10 @@ div.formattab {
 .footer .second2{
     color: #fff;
 }
-.two{
+.two2{
     padding: 30px 3px 60px 0px;
 }
-.one{
+.one1{
     padding-top: 50px;
 }
 .right{
