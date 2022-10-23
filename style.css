@@ -110,10 +110,9 @@ body {
     color: #000000;
 }
 .film .boy2 {
-    width: 314px;
     height: 315px;
     margin-left: 190px;
-    padding-right: 50px;
+    padding-right: 135px;
 }
 .camera {
     display: flex;
@@ -352,6 +351,7 @@ h1.format {
 }
 .container2{
    width: 1550px;
+    margin-right: 100px;
 }
 .gray{
     background-color: #EFEFEF;
